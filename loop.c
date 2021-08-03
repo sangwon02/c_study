@@ -110,5 +110,6 @@ int main_loop(void)
 	printf("%d으로 쌓았다.", floor);*/
 
 
+
 	return 0;
 }
