@@ -64,5 +64,6 @@ int main_scanprint(void)
 	printf("¸ö¹«°Ô(kg) : %.2f\n",  weight);
 	printf("Å°(cm)     : %.2f\n", height);
 	printf("¹üÁË¸í     : %s\n", crime);*/
+
 	return 0;
 }
