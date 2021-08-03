@@ -19,5 +19,6 @@ int main_random(void)
 		printf("%d", rand() % 10);
 	}*/
 
+
 	return 0;
 }
