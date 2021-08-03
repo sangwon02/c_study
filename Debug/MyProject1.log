@@ -1,0 +1,4 @@
+﻿  condition.c
+C:\Users\sangw\Desktop\c언어\MyProject1\MyProject1\condition.c(134,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sangw\Desktop\c언어\MyProject1\MyProject1\condition.c(135,14): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  MyProject1.vcxproj -> C:\Users\sangw\Desktop\c언어\MyProject1\Debug\MyProject1.exe
