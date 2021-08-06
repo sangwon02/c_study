@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main(void)
+int main_condition(void)
 {
 	// if/ else
 	// 버스를 탄다고 가정 학생 일반인
@@ -165,38 +165,38 @@ int main(void)
 	}*/
 
 	//up and down
-	srand(time(NULL));
-	int i = rand() % 100 + 1; // 1~100수 랜덤 선택
-	int x = 5;
-	for (int k = 0; k < 5; k++)
-	{
-		int a;
-		printf("숫자를 말해주세요.(남은 기회는 %d):",x);
-		scanf_s("%d", &a);
-		x--;
-		if (a==1)
-		{
-			printf("정답입니다!\n"); 
-			break;
-		}
-		else if (x == 0)
-		{
-			printf("기회가 다 소진되었네요.\n");
-		}
-		else if (a < i)
-		{
-			printf("숫자는 더 큽니다.\n");
-		}
-		else if (a > i)
-		{
-			printf("숫자는 더 작습니다.\n");
-		}
-		else
-		{
-			printf("알 수 없습니다.");
-		}
-	}
-	printf("종료되었습니다.\n");
+	//srand(time(NULL));
+	//int i = rand() % 100 + 1; // 1~100수 랜덤 선택
+	//int x = 5;
+	//for (int k = 0; k < 5; k++)
+	//{
+	//	int a;
+	//	printf("숫자를 말해주세요.(남은 기회는 %d):",x);
+	//	scanf_s("%d", &a);
+	//	x--;
+	//	if (a==1)
+	//	{
+	//		printf("정답입니다!\n"); 
+	//		break;
+	//	}
+	//	else if (x == 0)
+	//	{
+	//		printf("기회가 다 소진되었네요.\n");
+	//	}
+	//	else if (a < i)
+	//	{
+	//		printf("숫자는 더 큽니다.\n");
+	//	}
+	//	else if (a > i)
+	//	{
+	//		printf("숫자는 더 작습니다.\n");
+	//	}
+	//	else
+	//	{
+	//		printf("알 수 없습니다.");
+	//	}
+	//}
+	//printf("종료되었습니다.\n");
 
 
 
