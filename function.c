@@ -53,10 +53,12 @@ int main_function(void)
 
 	return 0;
 }
+
 void p(int num)
 {
 	printf("num의 값은 %d입니다.\n", num);
 }
+
 void function_without_return()
 {
 	printf("반환값이 없는 함수입니다.\n");
