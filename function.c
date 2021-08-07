@@ -50,7 +50,6 @@ int main_function(void)
 	//바로쓰기
 	/*printf("%d 빼기 %d는 %d입니다.\n", 7, 4, apple(7, 4));*/
 
-
 	return 0;
 }
 
