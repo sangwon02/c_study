@@ -198,7 +198,5 @@ int main_condition(void)
 	//}
 	//printf("종료되었습니다.\n");
 
-
-
 	return 0;
 }
