@@ -8,7 +8,7 @@ void function_with_params(int num1, int num2, int num3);
 
 int apple(int total, int ate);
 
-int main(void)
+int main_function(void)
 {
 	//함수
 	//계산기
