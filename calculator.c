@@ -41,6 +41,7 @@ int main_calculator(void)
 
 	return 0;
 }
+
 RandomNum(int level)
 {
 	return rand() % (level * 5) + 1;
