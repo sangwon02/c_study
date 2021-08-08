@@ -5,17 +5,17 @@
 int RandomNum(int level);
 void Question(int level, int num1, int num2);
  
-int main(void)
+int main_calculator(void)
 {
 	//스테이지 5개 있고 각각 문제가 있다.
-	printf("      5개의 비밀번호를 푸십시오.\n\n\n");
-	srand(time(NULL));
+	/*printf("      5개의 비밀번호를 푸십시오.\n\n\n");
+	srand(time(null));
 	int count = 0;
 	for (int i = 1; i <= 5; i++)
 	{
-		int num1 = RandomNum(i);
-		int num2 = RandomNum(i);
-		Question(i, num1, num2);
+		int num1 = randomnum(i);
+		int num2 = randomnum(i);
+		question(i, num1, num2);
 
 		int answer;
 		scanf_s("%d", &answer);
@@ -37,7 +37,7 @@ int main(void)
 			exit;
 		}
 	}
-	printf("      당신은 5개의 문제중 %d개 맞추었습니다.\n\n\n", count);
+	printf("      당신은 5개의 문제중 %d개 맞추었습니다.\n\n\n", count);*/
 
 	return 0;
 }
