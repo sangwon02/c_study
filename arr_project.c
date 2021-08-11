@@ -79,7 +79,5 @@ int main_arr_project(void)
 	//{
 	//	printf("\n\n >>>> 땡! 틀렸어요. 정답은 %d입니다.\n\n", treetment + 1);
 	//}
-
-
 	return 0;
 }
