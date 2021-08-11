@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-int main_arr(void)
+int main_arr_project(void)
 {
 	//srand(time(NULL));
 	//printf("발모제 찾기 게임");
