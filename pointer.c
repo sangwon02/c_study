@@ -4,7 +4,7 @@ void swap(int a, int b);
 void swap_ad(int *a, int *b);
 void change(int* ptr);
 
-int main(void)
+int main_pointer(void)
 {
 	//포인터 
 
@@ -142,7 +142,7 @@ int main(void)
 	printf("(주소값 전달)swap함수 후 => a : %d, b :%d\n", a, b);*/
 
 	//배열일 때, arr2 -> 
-	int arr2[3] = { 10,20,30 };
+	/*int arr2[3] = {10,20,30};
 	change(arr2);
 	for (int i = 0; i < 3; i++)
 	{
@@ -154,7 +154,7 @@ int main(void)
 	for (int i = 0; i < 3; i++)
 	{
 		printf("%d\n", arr2[i]);
-	}
+	}*/
 
 
 	return 0;
