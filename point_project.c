@@ -129,5 +129,6 @@ int checkfish()
 			return 1;
 		}
 	}
+
 	return 0;
 }
