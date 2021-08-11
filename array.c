@@ -85,6 +85,5 @@ int main_array(void)
 		printf("아스키 코드 정수 %d : %c\n", i, i);
 	}*/
 
-
 	return 0;
 }
