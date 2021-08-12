@@ -10,9 +10,9 @@ void initdata();
 void printffishes();
 void decreasewater(long elapsedTime);
 
-int main(void)
+int main_point_pro(void)
 {
-	long startTime = 0; //시작 시간
+	/*long startTime = 0; //시작 시간
 	long totalTime = 0; //총 경과 시간
 	long prevTime = 0; //직전 경과 시간 (최근에 물을 준 사간 간격)
 
@@ -87,7 +87,7 @@ int main(void)
 			printf("물고기가 아직 살아 있어요!!!\n\n");
 		}
 		prevTime = totalTime;
-	}
+	}*/
 
 	return 0;
 }
