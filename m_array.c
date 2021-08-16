@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main_m_arr(void)
 {
 	//다차원 배열 Multidimensional Array
 
@@ -41,7 +41,8 @@ int main(void)
 	//000
 
 	int array[5] = { 1,2,3,4,5 };
-
+	//2차원 배열
+	/*
 	int array2[2][5] = { 
 		{ 1, 2, 3, 4, 5 }, 
 		{ 1, 2, 3, 4, 5 } 
@@ -55,9 +56,11 @@ int main(void)
 		printf("\n");
 
 	}
+	*/
 
 	//3차원 배열
-	int array3[3][3][2] = { 
+	/*
+	int array3[3][3][2] = {
 		{ 
 			{ 1, 2 }, 
 			{ 1, 2 }, 
@@ -89,6 +92,7 @@ int main(void)
 		printf("\n");
 
 	}
+	*/
 
 
 	return 0;
